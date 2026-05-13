@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header / Hero -->
   <header>
     <h1>Your Name</h1>
     <p>Professional Title | Short Tagline</p>
@@ -17,42 +18,42 @@
     </nav>
   </header>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="job">
-      <h3>Job Title – Company</h3>
-      <p><em>Jan 2020 – Present</em></p>
+  <!-- Main Content -->
+  <main class="resume-layout">
+    <!-- Left Column -->
+    <section class="left-column">
+      <h2 id="experience">Experience</h2>
+      <div class="job">
+        <h3>Job Title – Company</h3>
+        <p><em>Jan 2020 – Present</em></p>
+        <ul>
+          <li>Reduced processing time by 40% through automation</li>
+          <li>Designed dashboards with real‑time KPIs</li>
+        </ul>
+      </div>
+
+      <h2 id="education">Education</h2>
+      <div class="education">
+        <h3>Bachelor of Science in Geology</h3>
+        <p>University Name – 2019</p>
+        <p>Thesis: [Title] | Honors: [Details]</p>
+      </div>
+    </section>
+
+    <!-- Right Column -->
+    <aside class="right-column">
+      <h2 id="skills">Skills</h2>
       <ul>
-        <li>Key achievement or responsibility</li>
-        <li>Another highlight</li>
+        <li><strong>Programming:</strong> Python, SQL</li>
+        <li><strong>Data Visualization:</strong> Power BI, Tableau</li>
+        <li><strong>Workflow Automation:</strong> Excel VBA, ETL tools</li>
       </ul>
-    </div>
-  </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-    </ul>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <p>B.S. in Computer Science – University Name (Year)</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
-    <p><a href="resume.pdf" download>Download Resume (PDF)</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 Your Name</p>
-  </footer>
+      <h2 id="contact">Contact</h2>
+      <p>Email: yourname@email.com</p>
+      <p>LinkedIn: linkedin.com/in/yourname</p>
+      <p><a href="resume.pdf" class="download-btn">Download Resume (PDF)</a></p>
+    </aside>
+  </main>
 </body>
 </html>
